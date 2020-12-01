@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    font-family: 'Roboto Condensed';
+/* width: 100%;} */
+}
+html,body{
+    margin-left: 55px;
+    margin-right: 10px;
+    max-width: 1350px;
+}
+nav{
+   
+     max-width: 100%; 
+}
+
+.home{
+    margin-top: 0px;
+    height: 600px;
+    max-width:100% ;
+    background-image: url(https://hostingsquare.in/images/services/web-design-professional-services.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: cover;
+}
+button{
+    width: 230px;
+    height: 50px;
+    padding: 0px;
+    text-align: center;
+    font-size: large;
+    letter-spacing: 1.2px;
+    background-color: orange;
+    position: absolute;
+    left: 350px;
+}
+.menu div a:hover{
+    background-color: orange;
+
+}
+#home{
+    z-index: 998;
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    padding: 20px;
+    align-items: center;
+    align-content: space-around;
+    font-size: 40px;
+    /* font-weight: 900; */
+    color:rgb(207, 203, 203);
+    
+}
+
+
+.features{
+   
+    margin-top: -3px;
+    height: 400px;
+    max-width:120% ;
+    background-color: lightgray;
+}
+
+.ourteam{
+   
+    margin-top: 0px;
+    height: 500px;
+    max-width:100% ;
+    background-color: rgb(243, 243, 243);
+}
+.outer{
+    max-width: 70%;
+    margin-left: 15%;
+    margin-top: 5px;
+    height: 45%;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1;
+}
+.outer1{
+    max-width: 65%;
+    margin-left: -5%;
+    margin-top: 10px;
+    height: 65%;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1;
+   
+}
+.box{
+    max-width: 18%;
+    margin-left: 5%;
+    height: 80%;
+    font-size: 18px;
+    align-content: center;
+    align-items: center;
+}
+.box1{
+    max-width: 25%;
+    margin-left: 10%;
+    height: 80%;
+    font-size: 18px;
+    align-content: center;
+    align-items: center;
+}
+.portfolio{
+    background-color: cornsilk;
+    margin-top: 0px;
+    height: 600px;
+    max-width:100% ;
+   
+}
+.about{
+    background-color: white;
+    margin-top: 0px;
+    height: 600px;
+    width:100% ;
+   
+}
+.imgbox{
+    width: 100%;
+    height: 58%;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+   
+  }
+  #img{
+     
+      width: 25%;
+      height: 25%;
+      
+  }
+
+ .outer2{
+    max-width: 80%;
+    margin-left: 5%;
+    margin-top: 10px;
+    height: 65%;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1;
+   
+}
+.box2{
+    max-width: 42%;
+    margin-left: 5%;
+    height: 80%;
+    font-size: 18px;
+    align-content: center;
+    align-items: center;
+}
+
+.contact{
+    background-color: gray;
+    margin-top: 0px;
+    height: 550px;
+    max-width:100% ;
+   
+}
+.map{
+    max-width: 80%;
+    margin-left: 15%;
+    margin-top: 10px;
+    height: 50%;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1;
+   
+   
+}
+.box3{
+    max-width: 35%;
+    margin-left: 5%;
+    height: 80%;
+    display: grid;
+    margin-top: 3%;
+    grid-template-columns: repeat(1,30);
+    align-content: center;
+    align-items: center;    
+}
+footer{
+    position: absolute;
+    top:3087px;
+    width: 83.6%;
+    height: 120px;
+    /* border: 1px solid blue; */
+}
